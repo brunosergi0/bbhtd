@@ -1,2 +1,4 @@
-# bbhtd
-100+ tools most used by bug bounty hunters, including GUI tools. Get a Docker container with all the tools you need for bug bounty, quickly and easily on any machine.
+# BBHTD
+Bug Bounty Hunter's Toolkit on Docker
+
+![alt text](https://github.com/brunosgio/bbhtd/blob/main/images/bbhtd.jpg)
