@@ -61,7 +61,7 @@ sudo xhost +local:docker && docker run \
   --mount type=bind,src=/tmp/.X11-unix,dst=/tmp/.X11-unix \
   --volume="/sys/fs/cgroup/:/sys/fs/cgroup:ro" \
   --device /dev/snd --device /dev/dri --device /dev/net/tun:/dev/net/tun \
-  --network --cap-add=NET_ADMIN \
+  --network host --cap-add=NET_ADMIN \
   bbhtd:docker /bin/bash
 
 exit 0
